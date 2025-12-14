@@ -10,7 +10,11 @@ Credit Card Approval Analysis and Predictive Modeling
  
 <img width="825" height="424" alt="image" src="https://github.com/user-attachments/assets/12eae9ce-608e-4bfd-9a41-172e04db9f07" />
 
+ภาพที่ 1 Data Analytic Framework
+
 <img width="900" height="437" alt="image" src="https://github.com/user-attachments/assets/58b1a636-0c56-47c5-909a-bc34d754e159" />
+
+ภาพที่ 2 Data Science Framework
 
 2. Data Analytics Methodology
 2.1 Analytical Questions 
@@ -22,11 +26,11 @@ Credit Card Approval Analysis and Predictive Modeling
 
  <img width="1050" height="297" alt="image" src="https://github.com/user-attachments/assets/bebdb793-1d9d-41fb-af58-016d2cc9d503" />
 
-ภาพที่ 1 ตัวอย่าง Data Set
+ภาพที่ 3 ตัวอย่าง Data Set
 
 <img width="1050" height="413" alt="image" src="https://github.com/user-attachments/assets/122cd5d4-8fcd-47dc-9a2f-0c9053572329" />
 
-ภาพที่ 2 ตัวอย่าง Data Dictionary
+ภาพที่ 4 ตัวอย่าง Data Dictionary
 
 2.3 Data cleaning and preprocessing 
 เนื่องจากเป็น "Clean Data" จะเน้นการตรวจสอบขั้นสุดท้าย การจัดการกับค่าที่หายไป (Missing Values) ที่ยังอาจมีอยู่
@@ -37,17 +41,18 @@ Credit Card Approval Analysis and Predictive Modeling
 
 <img width="1050" height="218" alt="image" src="https://github.com/user-attachments/assets/3272ef6f-c6db-4fbb-a022-99deb583eb24" />
  
-ภาพที่ 4 สถิติเชิงพรรณนา (Descriptive Statistics)
+ภาพที่ 5 สถิติเชิงพรรณนา (Descriptive Statistics)
  
  <img width="940" height="377" alt="image" src="https://github.com/user-attachments/assets/c6276400-0358-4eca-a15b-fb0fe94a4f93" />
 
-ภาพที่ 5 Pivot Table and Graph
+ภาพที่ 6 Pivot Table and Graph
 
 3.2 Visualization strategy: Heatmap สำหรับ Correlation Matrix
 
  <img width="940" height="695" alt="image" src="https://github.com/user-attachments/assets/42ffa8a2-aae9-4e1b-9da0-3fd76813b228" />
 
-ภาพที่ 6 Correlation Heatmap (แผนที่ความร้อนสหสัมพันธ์)
+ภาพที่ 7 Correlation Heatmap (แผนที่ความร้อนสหสัมพันธ์)
+
 ค่าสัมประสิทธิ์สหสัมพันธ์แบบเพียร์สัน (Pearson Correlation) ที่มีค่า มากกว่า 0.3 (ทั้งค่าบวกและลบ) หมายความว่ามีความสัมพันธ์เชิงเส้นระหว่างตัวแปรทั้งสองในระดับ ปานกลางถึงค่อนข้างมาก โดยมีค่าดังนี้
 Married and BankCustomer = 0.992
 PriorDefault and Approved = 0.720
@@ -64,11 +69,11 @@ ZipCode and StateName = 0.302
 
 <img width="282" height="264" alt="image" src="https://github.com/user-attachments/assets/d6b1f9e7-3bed-43f6-9c50-cebd39ebe946" />
 
-ภาพที่ 7 ค่าสัมประสิทธิ์สหสัมพันธ์แบบเพียร์สัน (Pearson Correlation) ที่มีค่า มากกว่า 0.3
+ภาพที่ 8 ค่าสัมประสิทธิ์สหสัมพันธ์แบบเพียร์สัน (Pearson Correlation) ที่มีค่า มากกว่า 0.3
 
 <img width="940" height="370" alt="image" src="https://github.com/user-attachments/assets/f60d9375-476c-4210-b6ed-e0f70e250be6" />
  
-ภาพที่ 8 ค่าสัมประสิทธิ์สหสัมพันธ์แบบเพียร์สัน (Pearson Correlation) ที่มีสัมพันธ์กับการอนุมัติสินเชื่อ
+ภาพที่ 9 ค่าสัมประสิทธิ์สหสัมพันธ์แบบเพียร์สัน (Pearson Correlation) ที่มีสัมพันธ์กับการอนุมัติสินเชื่อ
 
 บทสรุปเชิงวิเคราะห์: ปัจจัยด้าน ประวัติความเสี่ยง (PriorDefault) และ ความมั่นคง (Employed, CreditScore, YearsEmployed) เป็นคุณลักษณะหลักที่ขับเคลื่อนผลการตัดสินใจอนุมัติบัตรเครดิต ซึ่งตอบคำถามเชิงวิเคราะห์ที่ว่า "คุณลักษณะใดของผู้สมัครมีความสัมพันธ์กับการอนุมัติมากที่สุด"
 
@@ -77,7 +82,8 @@ ZipCode and StateName = 0.302
 
 <img width="940" height="382" alt="image" src="https://github.com/user-attachments/assets/abdd9fe2-f5f0-4dc7-91cb-07596703636b" />
  
-ภาพที่ 9 Independent Samples T-test
+ภาพที่ 10 Independent Samples T-test
+
 ผลจากการวิเคราะห์ความสัมพันธ์ของฟีเจอร์ (Correlation Analysis) เป็นไปตามสมมติฐานที่ว่ามีกลุ่มลูกค้า(Segments) ที่มีความเสี่ยงสูง/ต่ำ ที่แตกต่างกันชัดเจนหรือไม่ กล่าวโดยสรุปคือ ค่าเฉลี่ย Credit Score ของผู้ที่ได้รับการอนุมิติ แตกต่าง จากผู้ที่ไม่ได้รับการอนุมัติ
 
 2. ข้อบกพร่องในเกณฑ์การตัดสินใจแบบเดิม (Potential Flaws in Traditional Criteria)
@@ -99,16 +105,20 @@ Training: แบ่งข้อมูลเป็น Training, Validation แล
 
 <img width="1950" height="826" alt="image" src="https://github.com/user-attachments/assets/8b21aae2-6376-41b0-aab3-fcda7cf18d41" />
 
+ภาพที่ 11 Logistic Regression 
 
 3.4.3 Workflow– Model Development (Parameter Tuning / Hyperparameter Tuning)
 
 <img width="1573" height="602" alt="image" src="https://github.com/user-attachments/assets/1dbd4d3b-f822-4ce2-9576-c728daacd1ed" />
 
+ภาพที่ 12 Logistic Regression with Parameter Tuning / Hyperparameter Tuning
 
 3.4.4 Workflow– Model Development (Parameter Tuning / Hyperparameter Tuning with Pipeline and GridsearchCV)
 
 <img width="1722" height="684" alt="image" src="https://github.com/user-attachments/assets/329bf0e2-4139-4b4b-8fb0-54309c143168" />
 <img width="2185" height="686" alt="image" src="https://github.com/user-attachments/assets/dc67dc21-f613-406a-bad5-fa0cda4cc62e" />
+
+ภาพที่ 13 Logistic Regression with Parameter Tuning / Hyperparameter Tuning with Pipeline and GridsearchCV
 
 
 3.4 Model Evaluation
@@ -116,12 +126,15 @@ Training: แบ่งข้อมูลเป็น Training, Validation แล
 ประสิทธิภาพและการทำงานของแบบจำลอง (Model Performance and Discussion)
 ผลลัพธ์จากโมเดลการพยากรณ์นี้แสดงให้เห็นว่าโมเดลมีความสามารถในการจำแนกผู้ขอสินเชื่อบัตรเครดิตได้อย่างแม่นยำและสมดุล โดยมี Accuracy รวมอยู่ที่ 88% จาก 173 ตัวอย่างในชุดทดสอบ ซึ่งสูงกว่าเกณฑ์ที่ยอมรับได้สำหรับงานจำแนกประเภท
 
- <img width="1858" height="608" alt="image" src="https://github.com/user-attachments/assets/46812181-8b15-47ea-a638-5609f3f556aa" />
+<img width="1858" height="608" alt="image" src="https://github.com/user-attachments/assets/46812181-8b15-47ea-a638-5609f3f556aa" />
+
+ภาพที่ 14 Model Evaluation with Confusion Matrix
 
 <img width="1050" height="375" alt="image" src="https://github.com/user-attachments/assets/22c2145d-73cf-4f77-8141-6237a80979a8" />
 
 <img width="1050" height="333" alt="image" src="https://github.com/user-attachments/assets/48965daf-6bdc-4280-812a-85356827f968" />
 
+ภาพที่ 15 Model Evaluation with Report
  
 โมเดลนี้มีประสิทธิภาพดีและสามารถนำไป Deploy เพื่อใช้ในการตัดสินใจอนุมัติเบื้องต้นโดยอัตโนมัติได้ตาม Value Proposition ของโครงการ อย่างไรก็ตาม ควรเน้นการปรับปรุง Precision ของ Class 1 ให้สูงขึ้นเพื่อลดความเสี่ยงหนี้เสีย (FP) ให้สอดคล้องกับวัตถุประสงค์ทางธุรกิจหลักของสถาบันการเงิน
 
