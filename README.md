@@ -148,9 +148,9 @@ Training: แบ่งข้อมูลเป็น Training, Validation แล
 
 ภาพที่ 14 Model Evaluation with Confusion Matrix
 
-<img width="1050" height="375" alt="image" src="https://github.com/user-attachments/assets/22c2145d-73cf-4f77-8141-6237a80979a8" />
+<img width="712" height="243" alt="image" src="https://github.com/user-attachments/assets/c597ca7e-5c0f-4d50-ab4e-daa21c2423cc" />
 
-<img width="1050" height="333" alt="image" src="https://github.com/user-attachments/assets/48965daf-6bdc-4280-812a-85356827f968" />
+<img width="713" height="225" alt="image" src="https://github.com/user-attachments/assets/1b4c027a-a1ee-4af9-a091-210af6404da6" />
 
 ภาพที่ 15 Model Evaluation with Report</div>
  
